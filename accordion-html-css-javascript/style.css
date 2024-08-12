@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(236, 235, 233);
+}
+
+.con {
+    width: 80%;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+
+.qn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+h1 {
+    margin-left: 18px;
+}
+
+.qn~p {
+    margin: 10px 20px;
+    display: none;
+    text-align: justify;
+    opacity: .8;
+}
+
+.qn i {
+    cursor: pointer;
+    opacity: .8;
+    font-size: 20px;
+}

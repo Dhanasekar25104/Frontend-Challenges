@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="con">
+        <h1>Frequently Asked Question</h1>
+        <div class="qn">
+            <p>Why is the moon sometimes out during the day?</p>
+            <i class="fa-solid fa-circle-plus" onclick="display('qn1')"></i>
+
+        </div>
+        <p id="qn1">The moon can be visible during the day because it orbits the Earth, and its position relative to the
+            Earth and the Sun changes over time. The moon reflects sunlight, which means that when it's in the right
+            position in the sky, it can be bright enough to be seen even when the Sun is up.</p>
+        <div class="qn">
+            <p>Why is the sky blue?</p>
+            <i class="fa-solid fa-circle-plus" onclick="display('qn2')"></i>
+        </div>
+        <p id="qn2">The sky appears blue because of Rayleigh scattering. Shorter blue wavelengths scatter more than
+            longer red wavelengths when sunlight interacts with the atmosphere. This scattered blue light is what we see
+            when we look up at the sky. During sunrise and sunset, the sky can look red or orange due to the longer path
+            sunlight travels through the atmosphere, scattering more blue light out of our line of sight.</p>
+        <div class="qn">
+            <p>Will we ever discover alliens?</p>
+            <i class="fa-solid fa-circle-plus" onclick="display('qn3')"></i>
+        </div>
+        <p id="qn3">The discovery of extraterrestrial life remains one of science's biggest questions. While we haven't
+            found definitive evidence yet, the vastness of the universe suggests that the possibility is real. Ongoing
+            efforts, such as searching for microbial life on Mars, studying extreme environments on Earth, and scanning
+            the cosmos for signals, aim to answer this question. Advances in technology and space exploration may one
+            day provide the evidence we seek.</p>
+        <div class="qn">
+            <p>How much does the earth weight?</p>
+            <i class="fa-solid fa-circle-plus" onclick="display('qn4')"></i>
+        </div>
+        <p id="qn4">The Earth weighs approximately 5.97×10245.97×10 24kilograms, or about 5.97 sextillion kilograms.
+            This massive weight is determined through measurements of gravitational effects and calculations involving
+            the Earth's density and volume.</p>
+        <div class="qn">
+            <p>How do aeroplanes stay up?</p>
+            <i class="fa-solid fa-circle-plus" onclick="display('qn5')"></i>
+        </div>
+        <p id="qn5">
+            Airplanes stay up by generating lift through their wings, which create a pressure difference between the top
+            and bottom surfaces. Engines produce thrust to move the plane forward, allowing air to flow over the wings.
+            Lift counteracts the weight of the plane, keeping it in the air. Effective design minimizes drag, enhancing
+            stability and efficiency.</p>
+    </div>
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
