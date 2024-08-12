@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .con{
+            display: flex;
+           margin: 150px auto;
+           justify-content: center;
+        }
+       .image{
+            width: 385px;
+            height: 400px;
+       }
+       img{
+        width: 100%;
+       }
+     .form{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .form h1,.form h6{
+        text-align: center;
+     }
+     .form h1{
+        color: rgb(0, 204, 255);
+     }
+     input{
+        margin-top: 20px;
+        width: 230px;
+        height: 30px;
+        display: block;
+        padding: 5px;
+     }
+     input:focus{
+        outline: none;
+        border: none;
+        border:1px solid rgb(0, 204, 255)  ;
+     }
+     .form h6{
+        opacity: .5;
+     }
+     .inp{
+        position: relative;
+     }
+     .p1{
+        position: absolute;
+        top: -5px;
+        left:10px;
+        background-color: rgb(255, 255, 255);
+       
+     }
+     .p2{
+        position: absolute;
+        top: 58px;
+        left:10px;
+        background-color: rgb(255, 255, 255);
+
+     }
+     button:hover,.inp h6:hover,span:hover{
+        opacity: .8;
+        cursor: pointer;
+     }
+     .inp h6{
+        text-align: right;
+        opacity: .5;
+     }
+     .inp button{
+        margin-left:85px;
+        outline: none;
+        border: none;
+        background-color: rgb(0, 204, 255);
+        color:white;
+        padding: 15px;
+        border-radius: 8px;
+     }
+     .btns button{
+        border: none;
+        padding: 10px;
+        width: 60px;
+        border-radius: 8px;
+     }
+     .btns{
+        margin-top: 20px;
+     }
+     span{
+        margin-left: 5px;
+        font-weight: bold;
+     }
+     i{
+        font-size: 20px;
+     }
+     @media all and (max-width:800px) {
+        .image{
+            display: none;
+        }
+     }
+    </style>
+</head>
+<body>
+
+    <div class="con">
+        <div class="image">
+        <img src="travel.jpg" alt="">
+    </div>
+    <div class="frms">
+        <div class="form">
+            <div class="head">
+            <h1>Welcome</h1>
+            <h6>Login with Email</h6>
+        </div>
+        <div class="inp">
+            <input type="email">
+            <input type="password">
+            <p class="p1">Email id</p>
+            <p class="p2">Password</p>
+            <h6>Forgot your password?</h6>
+            <button>LOGIN</button>
+        </div>
+        <h4>----------------------OR-----------------------</h4>
+        <div class="btns">
+            <button><i class="fa-brands fa-google"></i></button>
+            <button><i class="fa-brands fa-facebook"></i></button>
+            <button><i class="fa-brands fa-apple"></i></button>
+        </div>
+        <p>Don't have account?<span>Register Now</span></p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
