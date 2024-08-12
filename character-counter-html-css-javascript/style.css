@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(56, 57, 58);
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+textarea {
+    width: 95%;
+    padding: 10px;
+}
+
+span {
+    color: red
+}
+
+.con {
+    width: 400px;
+    padding: 20px;
+    margin: 200px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.164) 0px 1px 4px;
+}
